@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Configurar Node.js
-        uses: actions/actions-setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
@@ -30,5 +30,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cypress-report
-          path: cypress/reports # Ajuste o caminho se o seu relatório salvar em outra pasta
+          path: cypress/reports
           if-no-files-found: ignore
