@@ -1,0 +1,16 @@
+{
+  "title": "Mr",
+  "password": "123456",
+  "birthDay": "30",
+  "birthMonth": "1",
+  "birthYear": "1980",
+  "firstName": "Xúlio",
+  "lastName": "of Lime",
+  "company": "Xúlio of Lime Corp",
+  "address": "Rua Sobe e Desce, s/n",
+  "country": "United States",
+  "state": "Estado",
+  "city": "Cidade",
+  "zipcode": "2234-223",
+  "mobileNumber": "987 435 312"
+}
